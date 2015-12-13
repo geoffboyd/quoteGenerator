@@ -1,0 +1,13 @@
+{
+	"name": "Random Quote Generator",
+	"description": "Quotes to enrich your day",
+	"version": "0.1",
+	"manifest_version": 2,
+	"permissions": ["https://fonts.gstatic.com", "https://fonts.googleapis.com"],
+	"app": {
+		"background": {
+			"scripts": ["background.js"]
+			}
+		},
+		"icons": {"16": "quoteGen-16.png", "128": "quoteGen-128.png"}
+}

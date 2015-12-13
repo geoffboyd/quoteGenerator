@@ -1,0 +1,30 @@
+<head>
+	<title>Random Quote Generator</title>
+</head>
+<body>
+	<script src="resources/jquery-2.1.4.min.js" type="text/javascript" ></script>
+	<script src="resources/jquery-ui/jquery-ui.min.js" type="text/javascript"></script>
+	<script src="resources/bootstrap/js/bootstrap.min.js" type="text/javascript" ></script>
+	<link rel="stylesheet" href="resources/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="resources/animate.css">
+	<link rel="stylesheet" href="resources/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="resources/style.css">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="container">
+				<div id="quoteBox" class="center-block col-xs-12 col-md-8 col-md-offset-2 col-xl-6 col-xl-offset-6">
+					<p><span id="quote" class="animated fadein">Welcome to the Random Quote Generator</span></p>
+					<p><span id="quotee" class="animated fadein">Press the button to begin</span></p>
+					<div id="buttons" class="center-block">
+						<button id="quoteButton" class="btn btn-success outline" ><i class="fa fa-refresh"></i> Generate Quote</button>
+						<span id=""><a id="twitter" href="#" ><i class="fa fa-twitter"></i> </a></span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			&copy; 2015 Geoff Boyd <span id="footer-btns"><a href="http://geoffboyd.github.io" target="_blank" ><i class="fa fa-github"></i> </a> <a href="https://www.linkedin.com/profile/view?id=AAIAABtlfZkBLKHRt3oLJr4IKltyip-2Y1uaKdk&trk=nav_responsive_tab_profile" target="_blank" ><i class="fa fa-linkedin"></i> </a> <a href="http://www.freecodecamp.com/geoffboyd" target="_blank" ><i class="fa fa-fire"></i> </a></span>		
+		</div>
+	</div> <!-- end of main container-fluid div -->
+	<script type="text/javascript" src="resources/main.js"></script>
+</body>

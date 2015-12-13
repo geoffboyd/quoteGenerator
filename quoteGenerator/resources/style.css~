@@ -1,0 +1,102 @@
+@font-face {
+	font-family: "Tangerine";
+	src: url(fonts/Tangerine_Regular.ttf);
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Poiret One";
+	src: url(fonts/PoiretOne-Regular.ttf);
+	font-weight: normal;
+	font-style: normal;
+}
+body {
+	background-image: url('images/autumn-leaves-wallpaper.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+}
+a:hover, button:hover {
+	cursor: pointer;
+}
+#quoteBox {
+	position: absolute;
+	text-align: center;
+	top: 25%;
+	left: 20%;
+	background-color: rgba(255,255,255,0.7);
+	min-width: 250px;
+	width: 60%; 
+	height: auto;
+	border-radius: 5px;
+	box-shadow: 2px 2px 10px #666;
+}
+#quote, #quotee {
+	position: relative;
+	top: 20px;
+}
+#quote {
+	font-family: "Tangerine";
+	font-size: 300%;
+	line-height: 40px;
+}
+#quotee {
+	font-family: "Poiret One";
+	font-size: 150%;
+}
+#buttons{
+	position: relative;
+	margin: auto;
+	top: 75px;
+}
+#twitter {
+	border-radius: 50%;
+	min-height: 125px;
+	min-width: 125px;
+	font-size: 400%;
+	position: relative;
+	top: 10px;
+	left: 10px;
+	background-color: rgb(64,153,255);
+	color: white;
+	opacity: 0.8;
+	display: none;
+}
+#twitter:hover {
+	color: rgb(64,153,255);
+	background-color: white;
+}
+#twitter a {
+	color: white;
+}
+#footer {
+background-color: tan;
+height: 25px;
+line-height: 25px;
+position: fixed;
+bottom: 0;
+width: 120%;
+left: -10%;
+text-align: center;
+opacity: 0.8;
+margin-top: 10px;
+}
+#footer-btns {
+padding-left: 50px;
+}
+.btn.outline {
+	background: radial-gradient(rgba(255,255,255,0.4),forestgreen);
+	padding: 12px 22px;
+}
+.btn-success.outline {
+	border: 2px solid #ADD;
+	color: #ADD;
+}
+.btn-success.outline:hover {
+    color: #DFD;
+    border-color: #DFD;
+}
+.btn-success.outline:active, .btn-success.outline.active {
+    border-color: DarkGreen;
+    color: DarkGreen;
+}
